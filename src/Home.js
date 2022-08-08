@@ -10,7 +10,8 @@ const Home = () => {
 
     return ( 
         <div className="home">
-           <BlogList blogs={blogs} title="The F blogs"/>
+           <BlogList blogs={blogs} title="The F blogs!"/>
+           <BlogList blogs={blogs.filter((blog) => blog.author !== 'mark' )} title="Addtl Blogs!"/>
         </div>
      );
 }
