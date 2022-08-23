@@ -3,7 +3,7 @@
 /* base styles */
 * {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Consolas";
   color: #333;
 }
 .navbar {
@@ -15,7 +15,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: orangered;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,7 +26,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: orangered;
 }
 .content {
   max-width: 600px;
@@ -46,7 +46,7 @@
 
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: orangered;
   margin-bottom: 8px;
 }
 
@@ -60,12 +60,12 @@
 
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: orangered;
   margin-bottom: 10px;
 }
 
 .create button, .blog-details button {
-  background: #f1356d;
+  background: orangered;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -86,7 +86,7 @@
 
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: orangered;
   margin-bottom: 30px;
 }
 
